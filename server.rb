@@ -9,5 +9,3 @@ end
 get "/sinatra" do
   "Hello Sinatra"
 end
-
-end
