@@ -33,5 +33,5 @@ get '/party' do
 end
 
 get '/' do
-	return "Hello, from Heroku."
+  redirect '/index.html'
 end
