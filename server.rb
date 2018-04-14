@@ -2,7 +2,7 @@ require 'sinatra'
 set :public_folder, File.dirname(__FILE__) + '/static/index.html'
 
 get '/' do
-  "Hello world"
+html :index
 end
 
 
